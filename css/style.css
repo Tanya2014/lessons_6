@@ -1,0 +1,348 @@
+
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/latoregular.woff2") format("woff2"), url("../fonts/latoregular.woff") format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/latobold.woff2") format("woff2"), url("../fonts/latobold.woff") format("woff");
+	font-display: swap;
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/latoblack.woff2") format("woff2"), url("../fonts/latoblack.woff") format("woff");
+	font-display: swap;
+	font-weight: 900;
+	font-style: normal;
+}
+
+
+
+body {
+   font-family: "Lato", sans-serif;
+   max-width: 810px;
+   margin: 0 auto;
+}
+.title {
+   /*font-family: "Lato", sans-serif;*/
+   font-weight: 900;
+   font-size: 46px;
+   font-style: normal;
+   line-height: 59.8px;
+   /*border: 1px solid #000000;*/
+   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+   margin-bottom: 92px;
+}
+.foto {
+   border-radius: 4px;
+   margin-bottom: 60px;
+}
+.text-one {
+   margin-bottom: 24px;
+}
+p.one {
+   /*font-family: "Lato", sans-serif;*/
+   font-weight: 700;
+   font-size: 20px;
+   line-height: 1.5;
+   color: #1E212C;
+}
+.text-two {
+   margin-bottom: 48px;
+}
+.text-two p {
+   margin-bottom: 26px;
+}
+.two {
+   /*font-family: "Lato", sans-serif;*/
+   font-size: 16px;
+   line-height: 1.65;
+   color: #424551;
+}
+.lorem {
+   margin-bottom: 48px;
+}
+.lorem p {
+   /*font-family: "Lato", sans-serif;*/
+   font-weight: 700;
+   font-size: 20px;
+   line-height: 1.5;
+   color: #1E212C;
+   padding-left: 58px;
+}
+.text-three {
+   margin-bottom: 24px;
+}
+.text-three p {
+   /*font-family: 'Lato', sans-serif;*/
+   line-height: 1.62;
+   color: #424551;
+   font-size: 16px;
+   margin-bottom: 24px;
+}
+.list-info {
+   margin-bottom: 24px;
+}
+.list-info li {
+   /*font-family: 'Lato', sans-serif;*/
+   font-size: 16px;
+   line-height: 1.6;
+   color: #424551;
+   padding-left: 32px;
+}
+.text-four {
+   margin-bottom: 60px;
+}
+.text-four p{
+   /*font-family: 'Lato', sans-serif;*/
+   font-size: 16px;
+   line-height: 1.6;
+   color: #424551;
+}
+
+.block-one p{
+   margin-bottom: 15px;
+}
+.block-one {
+   font-family: "Lato";
+   font-weight: 500;
+   font-style: italic;
+   background-color: aquamarine;
+   font-size: 24px;
+   padding: 15px;
+   margin-bottom: 30px;
+   min-width: 500px;
+}
+.pen {
+   text-align: justify;
+   text-shadow: 1px 1px 3px rgb(51, 153, 115) ;
+}
+.bag {
+   text-align: right;
+   text-transform: capitalize;
+}
+.pencil {
+  text-decoration: line-through;
+}
+.block-two p {
+   margin-bottom: 15px;
+}
+.block-two {
+   background-color: chocolate;
+   font-family: "Lato";
+   font-weight: 700;
+   font-style: oblique;
+   font-size: 26px;
+   padding: 15px;
+   margin-bottom: 30px;
+   border-radius: 20px;
+   border: 1px solid black;
+   max-width: 500px;
+}
+.fon {
+   border-radius: 15px;
+   border: 2px dotted rgb(234, 241, 10);
+   padding: 10px;
+}
+.book {
+   border-radius: 15px;
+   border: 2px dashed rgb(38, 255, 0);
+   padding: 10px;
+}
+.dog {
+   border-radius: 15px;
+   border: 2px double rgb(200, 255, 0);
+   padding: 10px;
+}
+
+.map {
+   
+   margin-bottom: 30px;
+
+}
+ p.mouse {
+   background-color: rgb(254, 220, 0);
+   font-size: 20px;
+   line-height: 1.5;
+   padding: 15px;
+   text-align: justify;
+   text-indent: 15px;
+   border: 2px solid rgb(255, 119, 0);
+   border-radius: 0px 30px 0px 30px;
+}
+
+/* експеремент */
+
+span {
+   /* не працює */
+   width: 300px; 
+   /* не працює */
+   height: 300px;
+   background-color: coral;
+}
+span {
+   /*  всі параметри (розміри), які відносяться до блочних елементів працюють з рядковими якщо добавити 
+   властивість  display: inline-block; 
+   або block */
+   display: inline-block;
+   padding: 15px;
+   text-decoration: line-through;
+   font-size: 20px;
+   overflow: hidden;
+   margin-bottom: 30px;
+}
+
+.house {
+   margin-bottom: 30px;
+}
+.house-one {
+   max-width: 400px;
+   background-color: #1E212C;
+   color: chartreuse;
+   font-size: 20px;
+   padding: 15px;
+   border-left: 3px solid chartreuse;
+   /*visibility: hidden;*/
+}
+
+.telefon {
+   background-color: blue;
+   padding: 15px;
+   height: 50px;
+   margin-bottom: 130px;
+}
+.telefon-one {
+   background-color: bisque;
+   padding: 15px;
+   min-height: 50px;
+   margin-bottom: 30px;
+}
+.telefon-two {
+   background-color: bisque;
+   padding: 10px;
+   max-height: 50px;
+   margin-bottom: 50px;
+}
+.telefon-three {
+   background-color: bisque;
+   padding: 10px;
+   overflow: hidden;
+   max-height: 50px;
+   margin-bottom: 30px;
+}
+.telefon-four {
+   background-color: bisque;
+   padding: 10px;
+   max-height: 80px;
+   overflow: scroll;
+   margin-bottom: 30px;
+}
+.telefon-five {
+   background-color: bisque;
+   padding: 10px;
+   max-height: 80px;
+   overflow: auto;
+   margin-bottom: 30px;
+}
+
+/* img рядково блочний і на нього впливають властивості висота і ширина */
+.telefon-six {
+   background-color: #1E212C;
+   padding: 10px;
+   width: 400px;
+   margin-bottom: 30px;
+}
+.section {
+   background-color: azure;
+   padding: 15px;
+   margin-bottom: 30px;
+}
+.text {
+   margin-bottom: 20px;
+}
+.link {
+   display: inline-block;
+   background-color: aqua;
+   margin-bottom: 20px;
+}
+.seven {
+   display: none;
+}
+.nine-text {
+   margin-bottom: 35px;
+}
+.nine {
+   margin: 15px;
+   padding: 15px;
+   background-color: green;
+   outline: 5px solid rgba(254, 220, 0, 0.641) ;
+}
+.link-one {
+   display: inline-block;
+   margin-bottom: 30px;
+}
+.link-one:focus {
+   outline: 1px solid red;
+  
+}
+.hello-one {
+   max-width: 500px;
+   margin-bottom: 30px;
+}
+.hello {
+   background-color: blanchedalmond;
+   border-radius: 15px/50px;
+   box-shadow: 1px 1px 25px 10px red;
+   text-align: justify;
+   padding: 15px;
+}
+.boss {
+   max-width: 500px;
+
+   margin-bottom: 30px;
+}
+.bosss {
+   background-color: aquamarine;
+   box-shadow:1px 3px 25px 10px #424551;
+   border: 2px solid #424551;
+   border-radius: 100% 0% 100% 0% / 16% 76% 24% 84%  ;
+   padding: 15px;
+}
+.family {
+   border-radius: 50%;
+   width: 200px;
+   height: 200px;
+   background-color: brown;
+   box-shadow: 5px 5px 20px 10px rgba(200, 255, 0, 0.739), inset 5px 5px 30px 10px rgba(200, 255, 0, 0.574);
+   margin: 0 auto;
+   margin-bottom: 30px;
+}
+
+/* Різниця між opacity: 0; і display: none; */
+
+/* можемо взаємодіяти , обєкт є але він прозорий*/
+.man{
+   margin-bottom: 30px;
+}
+.men {
+   opacity: 0.5;
+}
+/* не можемо взаємодіяти з блоком, не займає місце */
+
+.woman {
+   margin-bottom: 30px;
+   background-color: beige;
+}
+.women  {
+   padding: 15px;
+   text-align: justify;
+   text-transform: uppercase;
+   display: none;
+}
